@@ -1,0 +1,62 @@
+body{
+	background: #732fc0;
+	font-family: roboto;	
+	color: #fff;
+}
+
+
+/* .home{
+    background: blue;
+	width: 200px;
+	height: 200px;
+	animation-name: animasi_kotak;
+	animation-duration: 2s;
+}
+
+@keyframes animasi_kotak{
+    from{ background: blue;}
+    to{background: rosybrown;}
+} */
+
+.home{
+    text-align: center;
+    background: rgb(255, 0, 0);
+	width: 500px;
+    height: 500px;
+    border-radius: 200%;
+	position: fixed;
+	animation-name: animasi;
+	animation-duration: 2s;
+}
+
+@keyframes animasi{
+    0%   {background-color: rgb(255, 30, 0); left:0px; top:0px;}
+	25%  {background-color: rgb(255, 123, 0); left:200px; top:0px;}
+	50%  {background-color: rgb(251, 255, 0); left:0px; top:200px;}
+	75%  {background-color: rgb(62, 128, 0); left:200px; top:200px;}
+	100% {background-color: rgb(0, 255, 170); left:0px; top:0px;}
+}
+
+/* @-webkit-keyframes animasi{
+	0%   {background-color: red; left:0px; top:0px;}
+	25%  {background-color: yellow; left:200px; top:0px;}
+	50%  {background-color: blue; left:0px; top:200px;}
+	75%  {background-color: green; left:200px; top:200px;}
+	100% {background-color: red; left:0px; top:0px;}
+}
+ 
+@-moz-keyframes animasi{
+	0%   {background-color: red; left:0px; top:0px;}
+	25%  {background-color: yellow; left:200px; top:0px;}
+	50%  {background-color: blue; left:0px; top:200px;}
+	75%  {background-color: green; left:200px; top:200px;}
+	100% {background-color: red; left:0px; top:0px;}
+}
+ 
+@-o-keyframes animasi{
+	0%   {background-color: red; left:0px; top:0px;}
+	25%  {background-color: yellow; left:200px; top:0px;}
+	50%  {background-color: blue; left:0px; top:200px;}
+	75%  {background-color: green; left:200px; top:200px;}
+	100% {background-color: red; left:0px; top:0px;}
+} */

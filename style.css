@@ -1,9 +1,13 @@
-body{
+/* body{
 	background: #732fc0;
 	font-family: roboto;	
 	color: #fff;
-}
+} */
 
+/* .main{
+    background: cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+} */
 
 /* .home{
     background: blue;
@@ -18,7 +22,7 @@ body{
     to{background: rosybrown;}
 } */
 
-.home{
+/* .home{
     text-align: center;
     background: rgb(255, 0, 0);
 	width: 500px;
@@ -35,7 +39,7 @@ body{
 	50%  {background-color: rgb(251, 255, 0); left:0px; top:200px;}
 	75%  {background-color: rgb(62, 128, 0); left:200px; top:200px;}
 	100% {background-color: rgb(0, 255, 170); left:0px; top:0px;}
-}
+} */
 
 /* @-webkit-keyframes animasi{
 	0%   {background-color: red; left:0px; top:0px;}
